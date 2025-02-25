@@ -1,0 +1,206 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "inicio&StateMachine_1",
+        "fim&StateMachine_1",
+        "ShouldStop&Sequence_25",
+        "resultado&Sequence_28",
+        "mensagemErro&Sequence_28",
+        "resultado&Sequence_29",
+        "mensagemErro&Sequence_29",
+        "resultado&Sequence_30",
+        "mensagemErro&Sequence_30",
+        "dataHora&Sequence_32",
+        "arquivo&Sequence_32"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder",
+        "io_SalesforceBrowser",
+        "io_CadastroCorporativoBrowser",
+        "in_ResultadoExecucao",
+        "io_DDD",
+        "io_Telefone",
+        "io_DadosAlterados",
+        "io_NovoCliente"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "AlteraCliente.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "selectCNPJ&Sequence_21",
+        "CNPJ&Sequence_21",
+        "estadoRegex&Sequence_21",
+        "telefoneCompleto&Sequence_21",
+        "DDD&Sequence_21",
+        "Telefone&Sequence_21",
+        "Nome&Sequence_22",
+        "NomeFantasia&Sequence_22",
+        "CEP&Sequence_22",
+        "Endereco&Sequence_22",
+        "Bairro&Sequence_22",
+        "Estado&Sequence_22",
+        "Municipio&Sequence_22",
+        "InscricaoEstadual&Sequence_22",
+        "Contato&Sequence_22",
+        "Email&Sequence_22",
+        "Bloqueado&Sequence_22",
+        "municipio&Sequence_58"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "in_TransactionItem",
+        "io_DDD",
+        "io_Telefone",
+        "io_DadosAlterados"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "TOTVS/TOTVS_Login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "_out_InterruptibleDoWhile_1__CurrentIndex&Sequence_1",
+        "senhaEscrita&Sequence_3",
+        "userNameEscrito&Sequence_3",
+        "contagem&Sequence_3",
+        "userName&Sequence_1",
+        "password&Sequence_1",
+        "passwordTxt&Sequence_1",
+        "TotvsBrowser&Sequence_1",
+        "alertaExiste&Sequence_3",
+        "relizeExpirada&Sequence_3",
+        "limiteConexoes&Sequence_3",
+        "pesquisar&Sequence_3",
+        "atencao&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "CadastrarCliente.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "codigo&Sequence_16",
+        "codigoFinal&Sequence_19",
+        "municipio&Sequence_16",
+        "cnpj&Sequence_21",
+        "estado&Sequence_19",
+        "telefoneCompleto&Sequence_19",
+        "bloqueado&Sequence_19"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "in_TransactionItem",
+        "io_TotvsBrowser",
+        "io_DDD",
+        "io_Telefone",
+        "io_DadosAlterados",
+        "io_NovoCliente"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TotvsBrowser&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem",
+        "in_Config",
+        "io_NovoCliente",
+        "io_Telefone",
+        "io_DDD",
+        "io_DadosAlterados"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "io_CadastroCorporativoBrowser",
+        "io_SalesforceBrowser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/GetTransactionData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionNumber",
+        "in_Config",
+        "out_TransactionItem",
+        "out_TransactionField1",
+        "out_TransactionField2",
+        "out_TransactionID",
+        "io_dt_TransactionData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "AcessaRotinaClientes.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "io_TotvsBrowser"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
